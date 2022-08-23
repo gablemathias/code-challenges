@@ -1,4 +1,4 @@
-#return sum of arrays
+# return sum of arrays
 
 arr = [1,2,3,4,-1,-4,0,20,300,'2','5',"teste"]
 
