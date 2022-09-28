@@ -1,3 +1,5 @@
+# Time to finish: 5 min.
+
 def parcial_array(array, start_point = 1)
   return array[start_point..]
 end
