@@ -20,3 +20,16 @@ def maximum_wealth(accounts)
   end
   accounts.sort.last
 end
+
+# Second try
+# Time to develop: 1min30sec
+# Runtime: 71 ms, faster than 98.95% of Ruby online submissions for Richest Customer Wealth.
+# Memory Usage: 211.1 MB, less than 98.95% of Ruby online submissions for Richest Customer Wealth.
+
+def maximum_wealth(accounts)
+  accounts.map!(&:sum).max
+end
+
+p maximum_wealth(fortunes_1)
+p maximum_wealth(fortunes_2)
+p maximum_wealth(fortunes_3)
