@@ -24,6 +24,6 @@ def number_of_steps(num)
   counter
 end
 
-p number_of_steps(input_1)
-p number_of_steps(input_2)
-p number_of_steps(input_3)
+number_of_steps(input_1)
+number_of_steps(input_2)
+number_of_steps(input_3)
